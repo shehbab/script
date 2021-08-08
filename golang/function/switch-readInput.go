@@ -4,7 +4,7 @@ import ("fmt"
 )//Switch Case | read input
 func checKing(city string) {
 	switch city {
-	case "Delhi":
+	case "Delhi", "Kolkata":
 		fmt.Println("India")
     case "Islamabad":
 	    fmt.Println("Pakistan")
