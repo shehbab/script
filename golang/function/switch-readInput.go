@@ -21,3 +21,10 @@ func main(){
 //	checKing(os.Args[1])
 	checKing(r)
 }
+/*
+$ go run function/test.go
+Enter Your Capital of the Country: School
+No in the list
+Enter Your Capital of the Country: Delhi
+India
+*/
