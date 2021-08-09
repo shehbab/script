@@ -6,7 +6,7 @@ func findSeason(){
 	if len(os.Args) !=2 {
 		fmt.Printf("Enter the single Month\n")    
 		return
-   }else if  ! elementSearch() {
+   }else if  ! elementSearch() { //Calling the function checking the bool result
 	    fmt.Printf("%q is an invalid month\n",a)
         return
    }else{
