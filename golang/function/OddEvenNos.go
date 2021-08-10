@@ -23,3 +23,9 @@ func start(){
 func main(){
     start()
 }
+/***
+$ go run testing.go 27.6
+The number entered: 27.6
+27.6 convert to int value = 27
+27 is odd
+***/
